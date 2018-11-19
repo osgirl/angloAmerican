@@ -1,0 +1,62 @@
+.sidebar-nav li {
+  display: inline-block;
+  line-height: 20px;
+  position: relative;
+  width: 100%;
+}
+
+  .sidebar-nav li:before {
+      background-color: #1c1c1c;
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      -webkit-transition: width 0.2s ease-in;
+      -moz-transition: width 0.2s ease-in;
+      -ms-transition: width 0.2s ease-in;
+      -o-transition: width 0.2s ease-in;
+      transition: width 0.2s ease-in;
+      width: 3px;
+      z-index: -1;
+  }
+
+  .sidebar-nav li:before {
+      background-color: #6bb4e7;
+  }
+
+  .sidebar-nav li:hover:before {
+      -webkit-transition: width 0.2s ease-in;
+      -moz-transition: width 0.2s ease-in;
+      -ms-transition: width 0.2s ease-in;
+      -o-transition: width 0.2s ease-in;
+      transition: width 0.2s ease-in;
+      width: 100%;
+  }
+
+  .sidebar-nav li a {
+      color: #dddddd;
+      display: block;
+      padding: 10px 15px 10px 30px;
+      text-decoration: none;
+  }
+
+  .sidebar-nav li.open:hover before {
+      -webkit-transition: width 0.2s ease-in;
+      -moz-transition: width 0.2s ease-in;
+      -ms-transition: width 0.2s ease-in;
+      -o-transition: width 0.2s ease-in;
+      transition: width 0.2s ease-in;
+      width: 100%;
+  }
+  .sidebar-nav li a:hover, .sidebar-nav li a:active, .sidebar-nav li a:focus, .sidebar-nav li.open a:hover, .sidebar-nav li.open a:active, .sidebar-nav li.open a:focus {
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    font-size: 20px;
+    height: 65px;
+    line-height: 44px;
+}
