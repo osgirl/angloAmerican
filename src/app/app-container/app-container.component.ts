@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import data from "../../assets/json/data.json";
+import { AppContainerService } from './app-container.service';
 
 @Component({
   selector: 'app-app-container',
@@ -7,13 +7,19 @@ import data from "../../assets/json/data.json";
   styleUrls: ['./app-container.component.css']
 })
 export class AppContainerComponent implements OnInit {
-  appData: any;
-  constructor() {
-    this.appData = data;
+
+  private tilesData: Array<object> = [];
+  constructor(private apiService: AppContainerService) {
   }
 
   ngOnInit() {
-    console.log(this.appData)
+    this.getTilesData();
   }
 
+  getTilesData() {
+    this.apiService.getConfig().subscribe((data: Array<object>) => {
+      this.tilesData = data;
+      console.log(data);
+    });
+  }
 }
