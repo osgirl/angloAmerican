@@ -1,5 +1,14 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>{{title}}</h1>
-  <app-header></app-header>
-  <router-outlet></router-outlet>
+<div id="wrapper" class="">
+  <div class="overlay" style="display: none;"></div>
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+    <app-menu></app-menu>
+  </nav>
+  <div id="page-content-wrapper">
+    <app-header></app-header>
+    <div class="container">
+      <app-app-container></app-app-container>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
