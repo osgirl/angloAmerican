@@ -6,7 +6,7 @@
 }
 
   .sidebar-nav li:before {
-      background-color: #1c1c1c;
+      background-color: #7ea8fc;
       content: '';
       height: 100%;
       left: 0;
@@ -22,7 +22,7 @@
   }
 
   .sidebar-nav li:before {
-      background-color: #6bb4e7;
+      background-color:;
   }
 
   .sidebar-nav li:hover:before {
@@ -59,4 +59,10 @@
     font-size: 20px;
     height: 65px;
     line-height: 44px;
+}
+.sidebar-nav-color{
+        font-weight: bold; color: #ffffff; text-align: left;
+}
+.sidebar-nav-color a:hover {
+    background-color: #6E91D7 !important;
 }
