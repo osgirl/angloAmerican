@@ -35,7 +35,7 @@
         transition: all 0.35s ease-in-out;
         content: '';
         display: block;
-        font-size: 14px;
+        font-size:#1a1a1a;
         line-height: 32px;
         -ms-opacity: 0;
         opacity: 0;
