@@ -1,0 +1,6 @@
+<ul class='dataItems' *ngIf="appData">
+  <li *ngFor="let item of appData">
+    <img src={{item.src}} /><br />
+    {{item.desc}}
+  </li>
+</ul>

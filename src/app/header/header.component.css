@@ -1,85 +1,3 @@
-.nav .open > a {
-    background-color: transparent;
-}
-
-    .nav .open > a:hover {
-        background-color: transparent;
-    }
-
-    .nav .open > a:focus {
-        background-color: transparent;
-    }
-
-#wrapper {
-    padding-left: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-    #wrapper.toggled {
-        padding-left: 220px;
-    }
-
-        #wrapper.toggled #sidebar-wrapper {
-            width: 220px;
-        }
-
-        #wrapper.toggled #page-content-wrapper {
-            margin-right: -220px;
-            position: absolute;
-        }
-
-#sidebar-wrapper {
-    background:#002776;
-    height: 100%;
-    left: 220px;
-    margin-left: -220px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    width: 0;
-    z-index: 1000;
-}
-
-    #sidebar-wrapper::-webkit-scrollbar {
-        display: none;
-    }
-
-
-#page-content-wrapper {
-    padding-top: 70px;
-    width: 100%;
-}
-.sidebar-nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 220px;
-}
-
-    .sidebar-nav .dropdown-menu {
-        background-color: #222222;
-        -ms-border-radius: 0;
-        border-radius: 0;
-        border: none;
-        -webkit-box-shadow: none;
-        -ms-box-shadow: none;
-        box-shadow: none;
-        margin: 0;
-        padding: 0;
-        position: relative;
-        width: 100%;
-    }
-
 .hamburger {
     background: transparent;
     border: none;
@@ -117,7 +35,7 @@
         transition: all 0.35s ease-in-out;
         content: '';
         display: block;
-        font-size: 14px;
+        font-size:#1a1a1a;
         line-height: 32px;
         -ms-opacity: 0;
         opacity: 0;
@@ -259,21 +177,6 @@
         -ms-opacity: 1;
         opacity: 1;
     }
-
-.overlay {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #000000;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 1;
-}
-
-.hamb-bottom, .hamb-middle, .hamb-top {
-    background-color: black;
-}
+    .hamb-bottom, .hamb-middle, .hamb-top {
+        background-color: black;
+    }

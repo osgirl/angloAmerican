@@ -1,0 +1,13 @@
+ul.dataItems{
+    list-style: none;
+}
+ul.dataItems li{
+    margin: 0;
+    padding: 0;
+    float: left;
+    padding: 10px;
+    width: 30%;
+}
+ul.dataItems li img{
+    width: 100%;
+}
