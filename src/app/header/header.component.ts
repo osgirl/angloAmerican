@@ -7,7 +7,7 @@ import $ from 'jquery';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  isClosed: boolean
+  isClosed: boolean;
   constructor() {
 
   }
@@ -15,11 +15,13 @@ export class HeaderComponent implements OnInit {
     const overlay = $('.overlay');
     const trigger = $('.hamburger');
     if (this.isClosed === true) {
+      $('.sidebar-nav-color span').hide();
       overlay.hide();
       trigger.removeClass('is-open');
       trigger.addClass('is-closed');
       this.isClosed = false;
     } else {
+      $('.sidebar-nav-color span').show();
       overlay.show();
       trigger.removeClass('is-closed');
       trigger.addClass('is-open');
@@ -29,6 +31,7 @@ export class HeaderComponent implements OnInit {
   }
   ngOnInit() {
     this.isClosed = false;
+    $('.sidebar-nav-color span').hide();
   }
 
 }

@@ -1,34 +1,42 @@
 [
     {
-        "desc": "description",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
+        "heading": "Los Bronces Metallurgist Reporting (Alpha)",
         "src": "../../assets/images/LosBroncesMetallurgistReporting.jpg"
     },
     {
-        "desc": "description",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
+        "heading": "Spatial Visualisation Tool (PoC)",
         "src": "../../assets/images/SpatialVisualisationTool.jpg"
     },
     {
-        "desc": "description",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
+        "heading": "Resource and Reserve Reporting (Alpha)",
         "src": "../../assets/images/ResourceandReserveReporting.jpg"
     },
     {
-        "desc": "description",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
+        "heading": "Los Bronces Processing ML Models (PoC)",
         "src": "../../assets/images/LosBroncesProcessingMLModels.jpg"
     },
     {
-        "desc": "description",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
+        "heading": "GDG Cognitive Search (PoC)",
         "src": "../../assets/images/GDGCognitiveSearch.jpg"
     },
     {
-        "desc": "description",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
+        "heading": "Safety Indicators (demo)",
         "src": "../../assets/images/SafetyIndicators.jpg"
     },
     {
-        "desc": "description",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
+        "heading": "Kl. RTC.. Data Porta, (P0C)",
         "src": "../../assets/images/KIORTCBMDataPortal.jpg"
     },
     {
-        "desc": "description",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
+        "heading": "Core Viewer",
         "src": "../../assets/images/CoreViewer.jpg"
     }
 ]

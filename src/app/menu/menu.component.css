@@ -63,6 +63,16 @@
 .sidebar-nav-color{
         font-weight: bold; color: #ffffff; text-align: left;
 }
+.sidebar-nav-color a{
+    color: #FFF !important;
+}
+.sidebar-nav-color img{
+    margin-left: 10px;
+}
+.sidebar-nav-color span{
+    margin-left: 10px;
+    font-size: 12px;
+}
 .sidebar-nav-color a:hover {
     background-color: #6E91D7 !important;
 }
