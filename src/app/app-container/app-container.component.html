@@ -1,8 +1,9 @@
 <ul class='dataItems' *ngIf="tilesData">
   <li *ngFor="let item of tilesData">
-    <span class="launchWrapper"><img src={{item.src}} />
+    <span class="launchWrapper">
+      <img src={{item.src}} />
       <div class="middle">
-        <div class="text">Launch</div>
+        <a href="https://www.google.com" target="_blank" class="text">LAUNCH</a>
       </div>
     </span>
     <br />
