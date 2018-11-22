@@ -186,6 +186,7 @@
     }
     .topnav{
         background: #FFF;
+        border-bottom: 1px solid #CCC;
     }
     .logo{
         padding-left: 10%;
