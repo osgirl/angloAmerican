@@ -7,6 +7,7 @@
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   background: #E4E9F2;
+  width: 100%;
 }
   #wrapper.toggled #sidebar-wrapper {
       width: 220px;
