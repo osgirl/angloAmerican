@@ -21,7 +21,10 @@ export class HeaderComponent implements OnInit {
       trigger.addClass('is-closed');
       this.isClosed = false;
     } else {
-      $('.sidebar-nav-color span').show();
+      setTimeout(function () {
+        $('.sidebar-nav-color span').show();
+      }, 500);
+
       overlay.show();
       trigger.removeClass('is-closed');
       trigger.addClass('is-open');
