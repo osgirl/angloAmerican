@@ -4,9 +4,10 @@
     display: block;
     height: 30px;
     position: fixed;
-    top: 15px;
+    top: 10px;
     width: 23px;
     z-index: 999;
+    left: 20px;
 }
 
     .hamburger:hover {
@@ -182,4 +183,16 @@
     }
     .hamb-bottom, .hamb-middle, .hamb-top {
         background-color: black;
+    }
+    .topnav{
+        background: #FFF;
+    }
+    .logo{
+        padding-left: 10%;
+        height: 50px;
+    }
+    .topnav .nav-brand{
+        margin-left: 20%;
+        color: #002776;
+        font-weight: bold;
     }
