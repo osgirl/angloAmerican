@@ -18,7 +18,9 @@
       position: absolute;
   }
    
-
+#page-content-wrapper{
+  padding-top: 50px ;
+}
 #sidebar-wrapper {
   background:#002776;
   height: 100%;
@@ -33,7 +35,7 @@
   transition: all 0.5s ease;
   width: 75px;
   z-index: 1000;
-  top: 60px;
+  top: 50px;
 }
 
 .nav .open > a {
