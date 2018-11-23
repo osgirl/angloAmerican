@@ -1,5 +1,5 @@
-<ul class='dataItems' *ngIf="tilesData">
-  <li *ngFor="let item of tilesData">
+<div class='dataItems row' *ngIf="tilesData">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-9 tile" *ngFor="let item of tilesData">
     <span class="launchWrapper">
       <img src={{item.src}} />
       <div class="middle">
@@ -13,20 +13,20 @@
     </span>
     <div class="container-fluid ">
       <div class="row content-bord">
-      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 content-resp">
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-        <i class="fa fa-user">User</i> 
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 content-resp">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+            <i class="fa fa-user">User</i>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+            <i class="fa fa-map-marker">Location</i>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+            <i class="fa fa-users">Team</i>
+          </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-        <i class="fa fa-map-marker">Location</i>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-        <i class="fa fa-users">Team</i>
-       </div>
       </div>
-      </div>
-   
+
     </div>
 
-  </li>
-</ul>
+  </div>
+</div>
