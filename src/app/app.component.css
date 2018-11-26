@@ -30,7 +30,7 @@
   -webkit-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  width: 75px;
+  width: 50px;
   z-index: 1000;
   top: 50px;
 }

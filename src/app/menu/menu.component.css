@@ -5,74 +5,89 @@
   width: 100%;
 }
 
-  .sidebar-nav li:before {
-      background-color: #7ea8fc;
-      content: '';
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      -webkit-transition: width 0.2s ease-in;
-      -moz-transition: width 0.2s ease-in;
-      -ms-transition: width 0.2s ease-in;
-      -o-transition: width 0.2s ease-in;
-      transition: width 0.2s ease-in;
-      width: 3px;
-      z-index: -1;
-  }
-
-  .sidebar-nav li:before {
-      background-color:;
-  }
-
-  .sidebar-nav li:hover:before {
-      -webkit-transition: width 0.2s ease-in;
-      -moz-transition: width 0.2s ease-in;
-      -ms-transition: width 0.2s ease-in;
-      -o-transition: width 0.2s ease-in;
-      transition: width 0.2s ease-in;
-      width: 100%;
-  }
-
-  .sidebar-nav li a {
-      color: #dddddd;
-      display: block;
-      padding: 10px 15px 10px 30px;
-      text-decoration: none;
-  }
-
-  .sidebar-nav li.open:hover before {
-      -webkit-transition: width 0.2s ease-in;
-      -moz-transition: width 0.2s ease-in;
-      -ms-transition: width 0.2s ease-in;
-      -o-transition: width 0.2s ease-in;
-      transition: width 0.2s ease-in;
-      width: 100%;
-  }
-  .sidebar-nav li a:hover, .sidebar-nav li a:active, .sidebar-nav li a:focus, .sidebar-nav li.open a:hover, .sidebar-nav li.open a:active, .sidebar-nav li.open a:focus {
-    background-color: transparent;
-    color: #ffffff;
-    text-decoration: none;
+.sidebar-nav li:before {
+  background-color: #7ea8fc;
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: width 0.2s ease-in;
+  -moz-transition: width 0.2s ease-in;
+  -ms-transition: width 0.2s ease-in;
+  -o-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+  width: 3px;
+  z-index: -1;
 }
 
-.sidebar-nav > .sidebar-brand {
-    font-size: 20px;
-    height: 65px;
-    line-height: 44px;
+.sidebar-nav li:hover:before {
+  -webkit-transition: width 0.2s ease-in;
+  -moz-transition: width 0.2s ease-in;
+  -ms-transition: width 0.2s ease-in;
+  -o-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+  width: 100%;
 }
-.sidebar-nav-color{
-        font-weight: bold; color: #ffffff; text-align: left;
+
+.sidebar-nav li a {
+  color: #dddddd;
+  display: block;
+  padding: 10px 15px 10px 30px;
+  text-decoration: none;
 }
-.sidebar-nav-color a{
-    color: #FFF !important;
+
+.sidebar-nav li.open:hover before {
+  -webkit-transition: width 0.2s ease-in;
+  -moz-transition: width 0.2s ease-in;
+  -ms-transition: width 0.2s ease-in;
+  -o-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+  width: 100%;
 }
-.sidebar-nav-color img{
-    margin-left: 10px;
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus,
+.sidebar-nav li.open a:hover,
+.sidebar-nav li.open a:active,
+.sidebar-nav li.open a:focus {
+  background-color: transparent;
+  color: #ffffff;
+  text-decoration: none;
 }
-.sidebar-nav-color span{
-    margin-left: 10px;
-    font-size: 12px;
+
+.sidebar-nav>.sidebar-brand {
+  font-size: 20px;
+  height: 65px;
+  line-height: 44px;
 }
+
+.sidebar-nav-color {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  padding: 10px;
+}
+
+.sidebar-nav-color a {
+  color: #FFF !important;
+}
+
+.sidebar-nav-color img {
+  width: 70%;
+  fill: #000;
+}
+
+.sidebar-nav-color span {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
 .sidebar-nav-color a:hover {
-    background-color: #6E91D7 !important;
+  background-color: #6E91D7 !important;
+}
+
+#engagementSVG svg path {
+  fill: white;
 }

@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { Header.ServiceService } from './header.service.service';
+import { Header } from './header.service';
 
 describe('Header.ServiceService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));

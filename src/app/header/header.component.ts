@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import $ from 'jquery';
+import { ServiceService } from './header.service';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,8 @@ import $ from 'jquery';
 })
 export class HeaderComponent implements OnInit {
   isClosed: boolean;
-  constructor() {
+  private message: object;
+  constructor(private apiService: ServiceService) {
 
   }
   buttonSwitch() {
