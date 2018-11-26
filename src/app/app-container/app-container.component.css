@@ -88,4 +88,10 @@
   background: #FFF;
   margin: 0 !important;
   border-radius: 5px;
+  padding: 10px 0;
+
+}
+
+.content-board span {
+  font-size: 0.9em !important;
 }
