@@ -5,13 +5,21 @@
 .dataItems .tile {
   border-radius: 10px;
   background: none;
-  box-shadow: 10px 10px 20px 1px #CCC;
   margin-bottom: 20px;
-  padding-right: 0px;
 }
 
 .dataItems .tile img {
   width: 100%;
+}
+
+.desc p {
+  height: 70px;
+  display: inline-block;
+  overflow-y: scroll;
+}
+
+.desc h6 {
+  height: 30px;
 }
 
 .launchWrapper {
@@ -74,8 +82,10 @@
   display: inline;
 }
 
-.content-bord {
+.content-board {
   border-top: 1px solid #c3c3c3;
   padding: 3% 0%;
   background: #FFF;
+  margin: 0 !important;
+  border-radius: 5px;
 }

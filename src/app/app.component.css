@@ -13,14 +13,9 @@
   width: 220px;
 }
 
-#wrapper.toggled #page-content-wrapper {
-  margin-right: -220px;
-  position: absolute;
-}
-
 #page-content-wrapper {
-  padding-top: 5em;
-  padding-left: 9em;
+  padding-top: 4em;
+  padding-left: 7em;
 }
 
 #sidebar-wrapper {
