@@ -1,9 +1,32 @@
-<nav class="topnav navbar navbar-header navbar-fixed-top">
-  <button type="button" (click)="buttonSwitch()" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
-    <span class="hamb-top"></span>
-    <span class="hamb-middle"></span>
-    <span class="hamb-bottom"></span>
-  </button>
-  <img class="logo" src="../../assets/images/logo.png" />
-  <span class="nav-brand">FutureSmart<sup>TM</sup> Analytics Platform</span>
-</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12 ">
+      <nav class="topnav navbar navbar-header navbar-fixed-top">
+        <div class="col-xs-1 col-lg-1 col-md-1 col-sm-1">
+          <button type="button" (click)="buttonSwitch()" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+          </button>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <a href="#"><img class="logo" src="../../assets/images/logo.gif" /></a>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+          <div class="nav-brand future-smart "><span class="pull-left">
+              <p>FutureSmart<sup>TM</sup> Analytics Platform
+            </span></div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logout">
+          <div class="dropdown">
+            <i class="fa fa-user my-ac"></i> <span class='userName'> Ashish Mishra</span>
+            <div class="dropdown-content">
+              <a href="#" (click)="logout()">Logout</a>
+            </div>
+          </div>
+        </div>
+
+      </nav>
+    </div>
+  </div>
+</div>

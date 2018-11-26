@@ -19,7 +19,6 @@ export class AppContainerComponent implements OnInit {
   getTilesData() {
     this.apiService.getConfig().subscribe((data: Array<object>) => {
       this.tilesData = data;
-      console.log(data);
     });
   }
 }

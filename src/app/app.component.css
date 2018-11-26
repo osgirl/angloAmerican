@@ -15,7 +15,12 @@
 
 #page-content-wrapper {
   padding-top: 4em;
-  padding-left: 7em;
+  padding-left: 5.7em;
+}
+
+#page-content-wrapper h5 {
+  color: black;
+  font-weight: bold;
 }
 
 #sidebar-wrapper {

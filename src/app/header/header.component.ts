@@ -38,5 +38,11 @@ export class HeaderComponent implements OnInit {
     this.isClosed = false;
     $('.sidebar-nav-color span').hide();
   }
+  logout() {
+    this.apiService.logutUser().subscribe((data) => {
+      this.message = data;
+      console.log(data);
+    });
+  }
 
 }
