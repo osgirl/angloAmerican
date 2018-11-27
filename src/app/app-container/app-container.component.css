@@ -51,6 +51,7 @@
   padding: 10px;
   display: inline-block;
   background: #FFF;
+  width: 100%;
 }
 
 .dataItems .tile table span {
