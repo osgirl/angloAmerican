@@ -10,6 +10,8 @@
 
 .dataItems .tile img {
   width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .desc p {
@@ -90,8 +92,9 @@
   padding: 3% 0%;
   background: #FFF;
   margin: 0 !important;
-  border-radius: 5px;
   padding: 10px 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 
 }
 
