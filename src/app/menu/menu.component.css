@@ -82,6 +82,8 @@
 .sidebar-nav-color span {
   margin-left: 10px;
   font-size: 12px;
+  float: left;
+  margin-top: 8px;
 }
 
 .sidebar-nav-color a:hover {
@@ -90,4 +92,7 @@
 
 #engagementSVG svg path {
   fill: white;
+}
+#engagementSVG {
+  float: left;
 }
