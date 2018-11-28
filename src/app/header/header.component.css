@@ -197,15 +197,16 @@
 .topnav {
   background: #FFF;
   border-bottom: 1px solid #CCC;
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 .logo {
   height: 2em;
+  width: 8em;
 }
 
 .topnav .nav-brand {
-  margin-left: 3rem;
+  text-align: center;
   color: #002776;
   font-weight: bold;
   font-size: 1.2rem;
