@@ -10,9 +10,13 @@ import { ServiceService } from './header.service';
 export class HeaderComponent implements OnInit {
   isClosed: boolean;
   private message: object;
-  constructor(private apiService: ServiceService) {
+  username:string;
 
+  constructor(private apiService: ServiceService) {
+        this.username=apiService.username;
+        console.log(this.username);
   }
+  
   buttonSwitch() {
     const overlay = $('.overlay');
     const trigger = $('.hamburger');
@@ -39,10 +43,11 @@ export class HeaderComponent implements OnInit {
     $('.sidebar-nav-color span').hide();
   }
   logout() {
-    this.apiService.logutUser().subscribe((data) => {
+    /*this.apiService.logutUser().subscribe((data) => {
       this.message = data;
       console.log(data);
-    });
+    });*/
+    this.apiService.logutUser();
   }
 
 }
