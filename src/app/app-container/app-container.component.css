@@ -20,14 +20,14 @@
   overflow-y: scroll;
 
 }
-
-
 .desc h6 {
   height: 30px;
 }
 
 .launchWrapper {
   position: relative;
+  display: inline-block;
+  width: 100%;
 }
 
 .launchWrapper:hover {
@@ -38,6 +38,7 @@
 
 .launchWrapper:hover img {
   opacity: 0.5;
+  width: 100% !important;
 }
 
 .launchWrapper:hover .middle {
