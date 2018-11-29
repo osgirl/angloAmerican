@@ -8,7 +8,7 @@ import { AppContainerService } from './app-container.service';
 })
 export class AppContainerComponent implements OnInit {
 
-  private tilesData: Array<object> = [];
+  public tilesData: Array<object> = [];
   constructor(private apiService: AppContainerService) {
   }
 

@@ -68,6 +68,13 @@
   color: #ffffff;
   text-align: left;
   padding: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+.sidebar-nav-color:hover {
+  background: #7f97c8;
+  cursor: pointer;
 }
 
 .sidebar-nav-color a {
@@ -93,6 +100,7 @@
 #engagementSVG svg path {
   fill: white;
 }
+
 #engagementSVG {
   float: left;
 }
