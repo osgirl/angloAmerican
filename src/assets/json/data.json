@@ -4,8 +4,9 @@
     "src": "../../assets/images/ResourceandReserveReporting.jpg",
     "user": "John Roberts",
     "location": "Global",
-    "teamSize": "5"
-
+    "teamSize": "5",
+    "Id": 1,
+    "Url": "https://www.google.com/"
   },
   {
     "desc": "Operating Recipe Support – Visualize, decide and assist in maximizing grinding plant throughput and flotation plant recoveries to achieve the desired concentrate specifications",
@@ -13,7 +14,9 @@
     "src": "../../assets/images/LosBroncesMetallurgistReporting.jpg",
     "user": "Ian Blumel",
     "location": "Chile",
-    "teamSize": "5"
+    "teamSize": "5",
+    "Id": 2,
+    "Url": "https://www.youtube.com/"
 
   },
   {
@@ -22,7 +25,9 @@
     "src": "../../assets/images/SpatialVisualisationTool.jpg",
     "user": "User",
     "location": "Global",
-    "teamSize": "5"
+    "teamSize": "5",
+    "Id": 3,
+    "Url": "https://en.wikipedia.org/"
   },
   {
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
@@ -30,7 +35,9 @@
     "src": "../../assets/images/LosBroncesProcessingMLModels.jpg",
     "user": "User",
     "location": "Global",
-    "teamSize": "5"
+    "teamSize": "5",
+    "Id": 4,
+    "Url": "https://in.linkedin.com/"
   },
   {
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
@@ -38,7 +45,9 @@
     "src": "../../assets/images/GDGCognitiveSearch.jpg",
     "user": "User",
     "location": "Global",
-    "teamSize": "5"
+    "teamSize": "5",
+    "Id": 5,
+    "Url": "https://www.google.com/"
   },
   {
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
@@ -46,7 +55,9 @@
     "src": "../../assets/images/SafetyIndicators.jpg",
     "user": "User",
     "location": "Global",
-    "teamSize": "5"
+    "teamSize": "5",
+    "Id": 6,
+    "Url": "https://www.youtube.com/"
   },
   {
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
@@ -54,7 +65,9 @@
     "src": "../../assets/images/KIORTCBMDataPortal.jpg",
     "user": "User",
     "location": "Global",
-    "teamSize": "5"
+    "teamSize": "5",
+    "Id": 7,
+    "Url": "https://en.wikipedia.org/"
   },
   {
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam augue erat, sed tristique mi imperdiet ac.",
@@ -62,6 +75,8 @@
     "src": "../../assets/images/CoreViewer.jpg",
     "user": "User",
     "location": "Global",
-    "teamSize": "5"
+    "teamSize": "5",
+    "Id": 8,
+    "Url": "https://in.linkedin.com/"
   }
 ]

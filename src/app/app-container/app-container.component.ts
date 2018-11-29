@@ -9,17 +9,24 @@ import { AppContainerService } from './app-container.service';
 export class AppContainerComponent implements OnInit {
 
   private tilesData: Array<object> = [];
+  private urlData: Array<object> = [];
   constructor(private apiService: AppContainerService) {
   }
 
   ngOnInit() {
     this.getTilesData();
+    this.getUrlsData();
   }
 
   getTilesData() {
     this.apiService.getConfig().subscribe((data: Array<object>) => {
       this.tilesData = data;
-      console.log(data);
+    });
+  }
+
+  getUrlsData() {
+    this.apiService.getUrl().subscribe((data: Array<object>) => {
+      this.urlData = data;
     });
   }
 }
