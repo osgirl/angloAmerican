@@ -12,13 +12,12 @@ export class AppContainerService {
   url:any;
   constructor(private httpClient: HttpClient) {
   }
-  
   getConfig() {
     this.configUrl = '../../assets/json/data.json';
     return this.httpClient.get(this.configUrl);
   }
   getUrl(){
-    this.url = '../../assets/json/url.json';
+    this.url = 'http://mneu-api-d-da-001.azurewebsites.net/api/urls';
     return this.httpClient.get(this.url);
   }
 }
