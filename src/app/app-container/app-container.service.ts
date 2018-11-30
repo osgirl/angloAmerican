@@ -22,7 +22,8 @@ export class AppContainerService {
   endpoint = 'http://mneu-api-d-da-001.azurewebsites.net/api/';
   httpOptions = {
     headers: new HttpHeaders({
-      'Content-Type':  'application/json'
+      'Content-Type':  'application/json',
+      'Access-Control-Allow-Origin':'*'
     })
   };
   private extractData(res: Response) {
@@ -31,7 +32,9 @@ export class AppContainerService {
   }
 
   getUrl(): Observable<any> {
-    return this.httpClient.get(this.endpoint + 'urls');
+    return this.httpClient.get(this.endpoint + 'urls').pipe(
+      map(this.extractData))
+;
   }
 
  /* getUrl(){
