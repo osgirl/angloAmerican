@@ -1,6 +1,6 @@
 <div class='dataItems row' *ngIf="tilesData">
   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 tile" *ngFor="let item of tilesData; let i=index">
-    <span class="launchWrapper" *ngIf="urlData">
+    <span class="launchWrapper" *ngIf="urlData[i]">
       <img src={{item.src}} />
       <div class="middle">
         <a href="{{urlData[i].Url+urlData[i].Id}}" target="_blank" class="text">LAUNCH</a>
