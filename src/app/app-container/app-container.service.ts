@@ -12,14 +12,32 @@ export class AppContainerService {
   url:any;
   constructor(private httpClient: HttpClient) {
   }
+  
+
   getConfig() {
     this.configUrl = '../../assets/json/data.json';
     return this.httpClient.get(this.configUrl);
   }
-  getUrl(){
+
+  endpoint = 'http://mneu-api-d-da-001.azurewebsites.net/api/';
+  httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type':  'application/json'
+    })
+  };
+  private extractData(res: Response) {
+    let body = res;
+    return body || { };
+  }
+
+  getUrl(): Observable<any> {
+    return this.httpClient.get(this.endpoint + 'urls');
+  }
+
+ /* getUrl(){
     this.url = 'http://mneu-api-d-da-001.azurewebsites.net/api/urls';
     return this.httpClient.get(this.url);
-  }
+  }*/
 }
 
 
