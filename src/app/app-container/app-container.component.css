@@ -20,6 +20,7 @@
   overflow-y: scroll;
 
 }
+
 .desc h6 {
   height: 30px;
 }
@@ -86,6 +87,7 @@
 
 .content-resp {
   display: inline;
+  padding-right: 0;
 }
 
 .content-board {
